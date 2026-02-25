@@ -5,6 +5,5 @@ import Stripe from "stripe";
  * Use STRIPE_SECRET_KEY (sk_test_... or sk_live_...) - never expose this to the browser.
  */
 export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: "2024-11-20.acacia",
   typescript: true,
 });
